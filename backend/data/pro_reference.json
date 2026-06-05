@@ -1,0 +1,167 @@
+{
+  "tiger_2000": {
+    "name": "Tiger (Classic 2000)",
+    "bio": "2000 peak swing — maximally efficient hip-shoulder separation.",
+    "style": "Neutral",
+    "phases": {
+      "Address": {
+        "spine_angle": 32, "hip_rotation": 0, "shoulder_rotation": 0,
+        "left_elbow_angle": 160, "right_elbow_angle": 155,
+        "weight_distribution": 0.5,
+        "notes": ["Chin up", "Athletic posture", "Feet shoulder-width apart"]
+      },
+      "Takeaway": {
+        "spine_angle": 31, "hip_rotation": 8, "shoulder_rotation": 25,
+        "left_elbow_angle": 158, "right_elbow_angle": 140,
+        "weight_distribution": 0.5,
+        "notes": ["Low and wide takeaway", "One-piece move away from ball"]
+      },
+      "Backswing": {
+        "spine_angle": 30, "hip_rotation": 35, "shoulder_rotation": 65,
+        "left_elbow_angle": 155, "right_elbow_angle": 90,
+        "weight_distribution": 0.4,
+        "notes": ["Hip resistance creating X-factor", "Right knee stays flexed"]
+      },
+      "Top of Swing": {
+        "spine_angle": 29, "hip_rotation": 45, "shoulder_rotation": 90,
+        "left_elbow_angle": 150, "right_elbow_angle": 90,
+        "weight_distribution": 0.35,
+        "notes": ["Club parallel to ground", "Full shoulder turn", "Left arm straight"]
+      },
+      "Downswing": {
+        "spine_angle": 31, "hip_rotation": 25, "shoulder_rotation": 60,
+        "left_elbow_angle": 140, "right_elbow_angle": 85,
+        "weight_distribution": 0.55,
+        "notes": ["Hips fire first", "Lag maintained", "Weight shifts to lead side"]
+      },
+      "Impact": {
+        "spine_angle": 34, "hip_rotation": -10, "shoulder_rotation": 15,
+        "left_elbow_angle": 170, "right_elbow_angle": 165,
+        "weight_distribution": 0.75,
+        "notes": ["Hands ahead of ball", "Hips open to target", "Spine tilted away"]
+      },
+      "Follow Through": {
+        "spine_angle": 40, "hip_rotation": -35, "shoulder_rotation": -20,
+        "left_elbow_angle": 165, "right_elbow_angle": 160,
+        "weight_distribution": 0.85,
+        "notes": ["Full extension through the ball", "Right arm extends to target"]
+      },
+      "Finish": {
+        "spine_angle": 10, "hip_rotation": -45, "shoulder_rotation": -45,
+        "left_elbow_angle": 120, "right_elbow_angle": 90,
+        "weight_distribution": 0.95,
+        "notes": ["Balanced finish", "Belt buckle to target", "Weight fully on lead foot"]
+      }
+    }
+  },
+  "rory_2023": {
+    "name": "Rory (Modern 2023)",
+    "bio": "High hands, powerful rotation, consistent impact position.",
+    "style": "Upright",
+    "phases": {
+      "Address": {
+        "spine_angle": 34, "hip_rotation": 0, "shoulder_rotation": 0,
+        "left_elbow_angle": 162, "right_elbow_angle": 157,
+        "weight_distribution": 0.5,
+        "notes": ["Slightly stronger grip", "Tall posture at address"]
+      },
+      "Takeaway": {
+        "spine_angle": 33, "hip_rotation": 7, "shoulder_rotation": 28,
+        "left_elbow_angle": 160, "right_elbow_angle": 138,
+        "weight_distribution": 0.5,
+        "notes": ["Slightly steeper plane than average", "Club stays in front of body"]
+      },
+      "Backswing": {
+        "spine_angle": 32, "hip_rotation": 32, "shoulder_rotation": 68,
+        "left_elbow_angle": 157, "right_elbow_angle": 92,
+        "weight_distribution": 0.38,
+        "notes": ["High hands at top", "Minimal hip turn keeps power in coil"]
+      },
+      "Top of Swing": {
+        "spine_angle": 31, "hip_rotation": 42, "shoulder_rotation": 95,
+        "left_elbow_angle": 148, "right_elbow_angle": 88,
+        "weight_distribution": 0.33,
+        "notes": ["Club above parallel", "Extra shoulder turn for power"]
+      },
+      "Downswing": {
+        "spine_angle": 33, "hip_rotation": 22, "shoulder_rotation": 58,
+        "left_elbow_angle": 138, "right_elbow_angle": 83,
+        "weight_distribution": 0.58,
+        "notes": ["Aggressive hip clearance", "Creates steep angle of attack"]
+      },
+      "Impact": {
+        "spine_angle": 36, "hip_rotation": -12, "shoulder_rotation": 13,
+        "left_elbow_angle": 172, "right_elbow_angle": 167,
+        "weight_distribution": 0.78,
+        "notes": ["Maximum extension at impact", "Very open hips at ball contact"]
+      },
+      "Follow Through": {
+        "spine_angle": 42, "hip_rotation": -38, "shoulder_rotation": -22,
+        "left_elbow_angle": 167, "right_elbow_angle": 162,
+        "weight_distribution": 0.88,
+        "notes": ["High finish on left side", "Right side fully extends"]
+      },
+      "Finish": {
+        "spine_angle": 12, "hip_rotation": -48, "shoulder_rotation": -47,
+        "left_elbow_angle": 118, "right_elbow_angle": 88,
+        "weight_distribution": 0.96,
+        "notes": ["Reverse-C finish position", "Left heel can come up slightly"]
+      }
+    }
+  },
+  "annika_classic": {
+    "name": "Annika (Classic)",
+    "bio": "Textbook address, neutral plane, repeatable impact.",
+    "style": "Neutral",
+    "phases": {
+      "Address": {
+        "spine_angle": 30, "hip_rotation": 0, "shoulder_rotation": 0,
+        "left_elbow_angle": 158, "right_elbow_angle": 153,
+        "weight_distribution": 0.5,
+        "notes": ["Perfect alignment", "Quiet lower body at address"]
+      },
+      "Takeaway": {
+        "spine_angle": 29, "hip_rotation": 7, "shoulder_rotation": 23,
+        "left_elbow_angle": 156, "right_elbow_angle": 138,
+        "weight_distribution": 0.5,
+        "notes": ["Textbook one-piece takeaway", "Club stays on plane immediately"]
+      },
+      "Backswing": {
+        "spine_angle": 28, "hip_rotation": 32, "shoulder_rotation": 62,
+        "left_elbow_angle": 152, "right_elbow_angle": 88,
+        "weight_distribution": 0.42,
+        "notes": ["Compact, on-plane backswing"]
+      },
+      "Top of Swing": {
+        "spine_angle": 27, "hip_rotation": 43, "shoulder_rotation": 87,
+        "left_elbow_angle": 147, "right_elbow_angle": 87,
+        "weight_distribution": 0.37,
+        "notes": ["Just short of parallel — controlled, not overswinging"]
+      },
+      "Downswing": {
+        "spine_angle": 29, "hip_rotation": 24, "shoulder_rotation": 57,
+        "left_elbow_angle": 136, "right_elbow_angle": 82,
+        "weight_distribution": 0.53,
+        "notes": ["Smooth transition, no casting"]
+      },
+      "Impact": {
+        "spine_angle": 32, "hip_rotation": -9, "shoulder_rotation": 14,
+        "left_elbow_angle": 168, "right_elbow_angle": 163,
+        "weight_distribution": 0.73,
+        "notes": ["Excellent shaft lean", "Consistent impact position"]
+      },
+      "Follow Through": {
+        "spine_angle": 38, "hip_rotation": -33, "shoulder_rotation": -18,
+        "left_elbow_angle": 163, "right_elbow_angle": 158,
+        "weight_distribution": 0.83,
+        "notes": ["Balanced extension", "Right shoulder passes under chin"]
+      },
+      "Finish": {
+        "spine_angle": 8, "hip_rotation": -43, "shoulder_rotation": -43,
+        "left_elbow_angle": 115, "right_elbow_angle": 87,
+        "weight_distribution": 0.93,
+        "notes": ["Poise and balance", "Classic finish position"]
+      }
+    }
+  }
+}

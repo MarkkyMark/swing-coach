@@ -1,0 +1,27 @@
+# ── Backend ───────────────────────────────────────────────
+backend/.venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/.env
+
+# Session data — user-uploaded videos and extracted frames (large, personal)
+backend/storage/
+
+# SQLite database (contains user credentials)
+backend/storage/swingcoach.db
+
+# GolfDB raw/staging videos (already processed into backend/data/library/)
+backend/data/library_videos/
+
+# Transcoding temp files only
+backend/data/library/*/_transcode_tmp.mp4
+
+# ── Frontend ──────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+
+# ── OS / Editor ───────────────────────────────────────────
+.DS_Store
+*.DS_Store
+.vscode/
+*.swp
