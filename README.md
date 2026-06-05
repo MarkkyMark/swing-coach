@@ -83,7 +83,7 @@ backend/
 │   ├── frame_comparison.py      Core comparison engine (16-frame analysis)
 │   ├── frame_extraction.py      OpenCV frame extractor + rotation fix
 │   ├── pose_detection.py        MediaPipe → keypoint dicts
-│   ├── frame_comparison.py      Angle computation + deviation scoring
+│   ├── angle_calculator.py      Angle computation + circular normalization
 │   ├── feedback_service.py      Claude API integration
 │   ├── library_service.py       File-based reference library
 │   └── video_converter.py       H.264 transcoding via imageio-ffmpeg
@@ -95,10 +95,9 @@ backend/
 │   ├── schemas.py               Core Pydantic models
 │   └── library_schemas.py       Library + comparison result models
 ├── data/
-│   ├── library/                 Reference video storage (cataloged in library.json)
-│   └── library_videos/          Staging area for GolfDB bulk import
+│   └── library/                 64 pre-loaded GolfDB reference swings (videos + library.json)
 └── scripts/
-    └── import_golfdb.py         Bulk import script for GolfDB videos
+    └── import_golfdb.py         Bulk import script (used to build the library)
 
 frontend/src/
 ├── pages/
@@ -187,29 +186,6 @@ npm run dev
 ```
 
 Frontend: http://localhost:5173
-
-### Loading the GolfDB Reference Library (optional)
-
-The pro reference library uses videos from the [GolfDB dataset](https://github.com/wmcnally/golfdb).
-
-```bash
-# 1. Download videos from GolfDB and place them at:
-#    backend/data/library_videos/{id}.mp4
-
-# 2. Place the CSV at:
-#    backend/data/golfdb.csv
-
-# 3. Dry run (no writes):
-cd backend
-python scripts/import_golfdb.py --dry-run
-
-# 4. Full import:
-python scripts/import_golfdb.py
-
-# Options:
-#   --no-transcode    Skip H.264 conversion (faster, less compatible)
-#   --skip-existing   Safe for re-runs
-```
 
 ### Environment Variables
 
